@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Свяжитесь с STUGNUM — беседки, террасы, крыши по всей Эстонии. Оставьте заявку онлайн." />
+  <meta name="theme-color" content="#2D4A2B" />
+  <title>Контакты и заявка — STUGNUM</title>
+
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png" />
+  <link rel="icon" type="image/png" sizes="192x192" href="favicon-192.png" />
+  <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cal+Sans&family=Golos+Text:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+  <link rel="stylesheet" href="assets/css/site.css" />
+  <!-- Plausible Analytics: простая приватная аналитика без cookies -->
+  <script defer data-domain="stugnum.ee" src="https://plausible.io/js/script.js"></script>
+
+</head>
+<body data-page="contact">
+
+  <div id="header-slot"></div>
+
+  <section class="page-header">
+    <div class="container">
+      <span class="sub-heading"><span class="dot"></span> <span data-ru="Свяжитесь с нами" data-et="Võtke meiega ühendust">Свяжитесь с нами</span></span>
+      <h1 class="page-title"><span data-ru="Оставить заявку" data-et="Esita tellimus">Оставить заявку</span></h1>
+      <p class="page-subtitle" data-ru="Опишите задачу — позвоним в течение дня, обсудим детали и при необходимости приедем на бесплатный замер."
+         data-et="Kirjeldage ülesannet — helistame päeva jooksul, arutame üksikasjad ja vajadusel tuleme tasuta mõõtma.">
+         Опишите задачу — позвоним в течение дня, обсудим детали и при необходимости приедем на бесплатный замер.
+      </p>
+    </div>
+  </section>
+
+  <section class="page-content">
+    <div class="container">
+      <div style="display: grid; grid-template-columns: 1fr 360px; gap: 48px; align-items: start;" class="contact-grid">
+
+        <!-- Форма -->
+        <div style="background: var(--color-white); border: 1px solid var(--color-border); border-radius: 16px; padding: 40px;">
+          <h2 style="font-family: 'Cal Sans', system-ui, sans-serif; color: var(--color-heading); font-size: 28px; margin: 0 0 8px;"
+              data-ru="Расскажите о проекте" data-et="Rääkige projektist">Расскажите о проекте</h2>
+          <p style="color: var(--color-text-muted); margin: 0 0 24px;"
+             data-ru="Поля со * обязательны." data-et="* märgitud väljad on kohustuslikud.">
+             Поля со * обязательны.
+          </p>
+
+          <div style="background: rgba(45, 74, 43, 0.06); border-left: 3px solid var(--color-accent); border-radius: 8px; padding: 16px 20px; margin: 0 0 28px;">
+            <div style="font-weight: 600; color: var(--color-heading); margin-bottom: 8px; display: flex; align-items: center; gap: 8px;">
+              <i class="fa-solid fa-lightbulb" style="color: var(--color-accent);"></i>
+              <span data-ru="Совет" data-et="Nõuanne">Совет</span>
+            </div>
+            <p style="margin: 0; color: var(--color-text); font-size: 14px; line-height: 1.5;"
+               data-ru="Пришлите 2-3 фото-референса того, что нравится — так мы сразу попадём в ваш вкус."
+               data-et="Saatke 2-3 fotoreferentsi sellest, mis meeldib — nii saame kohe teie maitset tabada.">
+              Пришлите 2-3 фото-референса того, что нравится — так мы сразу попадём в ваш вкус.
+            </p>
+          </div>
+
+          <form id="contactForm" enctype="multipart/form-data">
+            <div class="form-grid">
+              <div class="form-field">
+                <label data-ru="Ваше имя *" data-et="Teie nimi *">Ваше имя *</label>
+                <input type="text" name="name" required placeholder="" data-ru-placeholder="Иван Петров" data-et-placeholder="Ivan Petrov" />
+              </div>
+
+              <div class="form-field">
+                <label data-ru="Телефон *" data-et="Telefon *">Телефон *</label>
+                <input type="tel" name="phone" required placeholder="+372 ..." data-ru-placeholder="+372 ..." data-et-placeholder="+372 ..." />
+              </div>
+
+              <div class="form-field">
+                <label data-ru="Email" data-et="E-post">Email</label>
+                <input type="email" name="email" placeholder="example@mail.ee" data-ru-placeholder="example@mail.ee" data-et-placeholder="example@mail.ee" />
+              </div>
+
+              <div class="form-field">
+                <label data-ru="Город / место" data-et="Linn / koht">Город / место</label>
+                <input type="text" name="city" placeholder="Tallinn" data-ru-placeholder="Tallinn" data-et-placeholder="Tallinn" />
+              </div>
+
+              <div class="form-field">
+                <label data-ru="Тип постройки" data-et="Ehitise tüüp">Тип постройки</label>
+                <select name="type">
+                  <option value="" data-ru="— выберите —" data-et="— valige —">— выберите —</option>
+                  <option value="besedki" data-ru="Беседка" data-et="Lehtla">Беседка</option>
+                  <option value="terracy" data-ru="Терраса" data-et="Terrass">Терраса</option>
+                  <option value="bytovka" data-ru="Садовый домик" data-et="Aiamaja">Садовый домик</option>
+                  <option value="drovnik" data-ru="Дровник" data-et="Puukuur">Дровник</option>
+                  <option value="krysha" data-ru="Крыша" data-et="Katus">Крыша</option>
+                  <option value="fasad" data-ru="Фасад" data-et="Fassaad">Фасад</option>
+                  <option value="speczakaz" data-ru="Спецзаказ" data-et="Eritellimus">Спецзаказ</option>
+                </select>
+              </div>
+
+              <div class="form-field">
+                <label data-ru="Примерный размер, м²" data-et="Ligikaudne suurus, m²">Примерный размер, м²</label>
+                <select name="size">
+                  <option value="" data-ru="— выберите —" data-et="— valige —">— выберите —</option>
+                  <option value="do10" data-ru="до 10 м²" data-et="kuni 10 m²">до 10 м²</option>
+                  <option value="10-30" data-ru="10–30 м²" data-et="10–30 m²">10–30 м²</option>
+                  <option value="bolshe30" data-ru="больше 30 м²" data-et="rohkem kui 30 m²">больше 30 м²</option>
+                </select>
+              </div>
+
+              <div class="form-field full">
+                <label data-ru="Сообщение" data-et="Sõnum">Сообщение</label>
+                <textarea name="message" data-ru-placeholder="Опишите, что хотите построить. Можно приложить фото места ниже."
+                          data-et-placeholder="Kirjeldage, mida soovite ehitada. Allpool saate lisada koha foto."
+                          placeholder="Опишите, что хотите построить. Можно приложить фото места ниже."></textarea>
+              </div>
+
+              <div class="form-field full">
+                <label data-ru="Прикрепить фото / чертёж (до 10 файлов)" data-et="Lisage foto / joonis (kuni 10 faili)">Прикрепить фото / чертёж (до 10 файлов)</label>
+                <div class="file-upload">
+                  <input type="file" name="files" id="filesInput" multiple accept="image/*,.pdf,.dwg,.doc,.docx" />
+                  <label for="filesInput" class="file-upload-btn">
+                    <i class="fa-solid fa-paperclip"></i>
+                    <span data-ru="Выбрать файлы" data-et="Vali failid">Выбрать файлы</span>
+                  </label>
+                  <span class="file-upload-status" id="filesStatus" data-ru="Файл не выбран" data-et="Faili ei ole valitud">Файл не выбран</span>
+                </div>
+              </div>
+
+              <div class="form-field full">
+                <label data-ru="Откуда узнали о нас?" data-et="Kust te meist kuulsite?">Откуда узнали о нас?</label>
+                <select name="source">
+                  <option value="" data-ru="— выберите —" data-et="— valige —">— выберите —</option>
+                  <option value="instagram" data-ru="Instagram" data-et="Instagram">Instagram</option>
+                  <option value="facebook" data-ru="Facebook" data-et="Facebook">Facebook</option>
+                  <option value="google" data-ru="Google" data-et="Google">Google</option>
+                  <option value="recommendation" data-ru="Рекомендация" data-et="Soovitus">Рекомендация</option>
+                  <option value="other" data-ru="Другое" data-et="Muu">Другое</option>
+                </select>
+              </div>
+            </div>
+
+            <label class="form-consent">
+              <input type="checkbox" name="consent" required />
+              <span data-ru="Согласен на обработку персональных данных в соответствии с политикой конфиденциальности."
+                   data-et="Nõustun isikuandmete töötlemisega vastavalt privaatsuspoliitikaga.">
+                Согласен на обработку персональных данных в соответствии с политикой конфиденциальности.
+              </span>
+            </label>
+
+            <button type="submit" class="btn btn-primary" style="width: 100%; padding: 14px;">
+              <span data-ru="Отправить заявку" data-et="Saada tellimus">Отправить заявку</span>
+              <i class="fa-solid fa-arrow-right"></i>
+            </button>
+
+            <div class="form-status" id="formStatus"></div>
+          </form>
+        </div>
+
+        <!-- Контакты -->
+        <aside style="background: var(--color-bg-soft); border-radius: 16px; padding: 32px;">
+          <h3 style="font-family: 'Cal Sans', system-ui, sans-serif; color: var(--color-heading); font-size: 20px; margin: 0 0 20px;"
+              data-ru="Прямые контакты" data-et="Otsekontaktid">Прямые контакты</h3>
+
+          <div style="margin-bottom: 20px;">
+                      <div class="info-caption"
+                           data-ru="Viber / звонок / SMS (RU)" data-et="Viber / kõne / SMS (RU)">Viber / звонок / SMS (RU)</div>
+                      <a href="tel:+3725503347" style="font-size: 22px; font-weight: 700; color: var(--color-heading); font-family: 'Cal Sans', system-ui, sans-serif;">+372 550 3347</a>
+                    </div>
+
+                    <div style="margin-bottom: 24px;">
+                      <div class="info-caption"
+                           data-ru="Email" data-et="E-post">Email</div>
+                      <a href="mailto:lehtlad.vvood@gmail.com" style="font-size: 16px; color: var(--color-heading);">lehtlad.vvood@gmail.com</a>
+                    </div>
+
+                    <hr class="divider" />
+
+                    <div style="margin-bottom: 16px;">
+                      <div class="info-caption"
+                           data-ru="Адрес" data-et="Aadress">Адрес</div>
+                      <div style="color: var(--color-heading); line-height: 1.6;"
+                                       data-ru-html="Sõnajala 4-2, Ahtme linnaosa,<br/>31027 Kohtla-Järve, Ida-Virumaa"
+                                       data-et-html="Sõnajala 4-2, Ahtme linnaosa,<br/>31027 Kohtla-Järve, Ida-Virumaa">
+                                    Sõnajala 4-2, Ahtme linnaosa,<br/>31027 Kohtla-Järve, Ida-Virumaa
+                                  </div>
+                    </div>
+          </div>
+
+          <div>
+            <div class="info-caption"
+                 data-ru="Часы работы" data-et="Tööaeg">Часы работы</div>
+            <div style="color: var(--color-heading);" data-ru="По договорённости" data-et="Kokkuleppel">По договорённости</div>
+          </div>
+
+          <hr class="divider" />
+
+          <div>
+            <div style="font-size: 12px; color: var(--color-text-muted); text-transform: uppercase; letter-spacing: 0.06em; margin-bottom: 8px;"
+                 data-ru="Соцсети" data-et="Sotsiaalmeedia">Соцсети</div>
+            <div style="display: flex; gap: 12px;">
+              <a href="https://www.facebook.com/vvod.lehtlad" target="_blank" rel="noopener" aria-label="Facebook" style="width: 44px; height: 44px; border-radius: 50%; background: var(--color-accent); color: #fff; display: inline-flex; align-items: center; justify-content: center;"><i class="fa-brands fa-facebook-f"></i></a>
+            </div>
+          </div>
+        </aside>
+
+      </div>
+    </div>
+  </section>
+
+  <div id="footer-slot"></div>
+
+
+
+  <script src="assets/js/site.js" defer></script>
+  <script src="assets/js/pages/contact.js" defer></script>
+</body>
+</html>

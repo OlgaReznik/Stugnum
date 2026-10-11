@@ -1,0 +1,81 @@
+{
+  "_comment": "Каталог товаров STUGNUM. Заполнится когда запустим магазин.",
+  "_schema": {
+    "id": "string (slug, уникальный)",
+    "title_ru": "string",
+    "title_et": "string",
+    "category": "string (одна из categories[*].slug)",
+    "type": "service | small_item | bulk_material",
+    "price": "number | {from, to}",
+    "currency": "EUR",
+    "unit": "string (шт, м², м³, л, упак)",
+    "in_stock": "boolean",
+    "photos": [
+      "string (путь от assets/img/products/)"
+    ],
+    "description_ru": "string",
+    "description_et": "string",
+    "features_ru": [
+      "string"
+    ],
+    "features_et": [
+      "string"
+    ],
+    "dimensions": "string (например: '3×4 м')",
+    "material": "string",
+    "tags": [
+      "string"
+    ]
+  },
+  "categories": [
+    {
+      "slug": "buildings",
+      "title_ru": "Готовые постройки",
+      "title_et": "Valmis ehitised",
+      "type": "service",
+      "description_ru": "Беседки, террасы, навесы, садовые домики — готовые объекты на продажу",
+      "description_et": "Lehtlad, terrassid, varikatused, aiamajad — valmis objektid müügiks"
+    },
+    {
+      "slug": "wood",
+      "title_ru": "Дрова и уголь",
+      "title_et": "Puud ja süsi",
+      "type": "bulk_material",
+      "description_ru": "Берёзовые, сосновые, ольховые дрова. Уголь. Доставка по Эстонии.",
+      "description_et": "Kase, männi, lepa puud. Süsi. Tarne üle Eesti."
+    },
+    {
+      "slug": "wood-care",
+      "title_ru": "Средства по уходу",
+      "title_et": "Puidu hooldusvahendid",
+      "type": "small_item",
+      "description_ru": "Масла, антисептики, лазури, краски для дерева",
+      "description_et": "Õlid, antiseptikud, lasuurid, värvid puidule"
+    },
+    {
+      "slug": "fasteners",
+      "title_ru": "Крепёж",
+      "title_et": "Kinnitusvahendid",
+      "type": "small_item",
+      "description_ru": "Саморезы, болты, уголки, перфорированные пластины",
+      "description_et": "Kruvid, poldid, nurgad, perforeeritud plaadid"
+    },
+    {
+      "slug": "signs",
+      "title_ru": "Таблички",
+      "title_et": "Sildid",
+      "type": "small_item",
+      "description_ru": "Адресные, декоративные, именные таблички из дерева",
+      "description_et": "Aadressi-, dekoratiiv-, nimelised puidust sildid"
+    },
+    {
+      "slug": "household",
+      "title_ru": "Мелочь для дома",
+      "title_et": "Majapidamistarbed",
+      "type": "small_item",
+      "description_ru": "Деревянные мелочи для дома",
+      "description_et": "Puidust majapidamistarbed"
+    }
+  ],
+  "products": []
+}

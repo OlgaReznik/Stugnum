@@ -1,0 +1,648 @@
+{
+  "version": 2,
+  "categories": {
+    "besedki": {
+      "ru": "Беседка",
+      "et": "Lehtla"
+    },
+    "terracy": {
+      "ru": "Терраса",
+      "et": "Terrass"
+    },
+    "bytovka": {
+      "ru": "Садовый домик",
+      "et": "Aiamaja"
+    },
+    "krysha": {
+      "ru": "Крыша",
+      "et": "Katus"
+    },
+    "fasad": {
+      "ru": "Фасад",
+      "et": "Fassaad"
+    },
+    "vnutrennie": {
+      "ru": "Внутренние работы",
+      "et": "Sisetööd"
+    },
+    "naves": {
+      "ru": "Навес",
+      "et": "Varikatus"
+    },
+    "specproekty": {
+      "ru": "Спецпроект",
+      "et": "Eriprojekt"
+    }
+  },
+  "objects": [
+    {
+      "id": "obj-fasad-fassad-1",
+      "category": "fasad",
+      "title_ru": "Фасад Fassad 1",
+      "title_et": "Fassaad Fassad 1",
+      "cover": "fasad-fassad-1-01.jpg",
+      "gallery": [
+        "fasad-fassad-1-01.jpg",
+        "fasad-fassad-1-02.jpg",
+        "fasad-fassad-1-03.jpg",
+        "fasad-fassad-1-04.jpg",
+        "fasad-fassad-1-05.jpg",
+        "fasad-fassad-1-06.jpg",
+        "fasad-fassad-1-07.jpg",
+        "fasad-fassad-1-08.jpg"
+      ],
+      "price_ru": "по запросу",
+      "price_et": "hind kokkuleppel"
+    },
+    {
+      "id": "obj-fasad-peipsi-jarv",
+      "category": "fasad",
+      "title_ru": "Фасад Peipsi järv",
+      "title_et": "Fassaad Peipsi järv",
+      "cover": "fasad-peipsi-jarv-01.jpg",
+      "gallery": [
+        "fasad-peipsi-jarv-01.jpg",
+        "fasad-peipsi-jarv-02.jpg",
+        "fasad-peipsi-jarv-03.jpg"
+      ],
+      "price_ru": "по запросу",
+      "price_et": "hind kokkuleppel"
+    },
+    {
+      "id": "obj-fasad-peipsi-jarv-2",
+      "category": "fasad",
+      "title_ru": "Фасад Peipsi järv 2",
+      "title_et": "Fassaad Peipsi järv 2",
+      "cover": "fasad-peipsi-jarv-2-01.jpg",
+      "gallery": [
+        "fasad-peipsi-jarv-2-01.jpg",
+        "fasad-peipsi-jarv-2-02.jpg",
+        "fasad-peipsi-jarv-2-03.jpg"
+      ],
+      "price_ru": "по запросу",
+      "price_et": "hind kokkuleppel"
+    },
+    {
+      "id": "obj-fasad-sillamae",
+      "category": "fasad",
+      "title_ru": "Фасад Sillamäe",
+      "title_et": "Fassaad Sillamäe",
+      "cover": "fasad-sillamae-01.jpg",
+      "gallery": [
+        "fasad-sillamae-01.jpg",
+        "fasad-sillamae-02.jpg",
+        "fasad-sillamae-03.jpg",
+        "fasad-sillamae-04.jpg",
+        "fasad-sillamae-05.jpg"
+      ],
+      "price_ru": "по запросу",
+      "price_et": "hind kokkuleppel"
+    },
+    {
+      "id": "obj-fasad-vahastu",
+      "category": "fasad",
+      "title_ru": "Фасад Vahastu",
+      "title_et": "Fassaad Vahastu",
+      "cover": "fasad-vahastu-01.jpg",
+      "gallery": [
+        "fasad-vahastu-01.jpg",
+        "fasad-vahastu-02.jpg",
+        "fasad-vahastu-03.jpg",
+        "fasad-vahastu-04.jpg"
+      ],
+      "price_ru": "по запросу",
+      "price_et": "hind kokkuleppel"
+    },
+    {
+      "id": "obj-besedki-johvi",
+      "category": "besedki",
+      "title_ru": "Беседка Jõhvi",
+      "title_et": "Lehtla Jõhvi",
+      "cover": "besedki-johvi-01.jpg",
+      "gallery": [
+        "besedki-johvi-01.jpg",
+        "besedki-johvi-02.jpg",
+        "besedki-johvi-03.jpg",
+        "besedki-johvi-04.jpg",
+        "besedki-johvi-05.jpg"
+      ],
+      "price_ru": "по запросу",
+      "price_et": "hind kokkuleppel"
+    },
+    {
+      "id": "obj-besedki-johvi-2",
+      "category": "besedki",
+      "title_ru": "Беседка Jõhvi 2",
+      "title_et": "Lehtla Jõhvi 2",
+      "cover": "besedki-johvi-2-01.jpg",
+      "gallery": [
+        "besedki-johvi-2-01.jpg",
+        "besedki-johvi-2-02.jpg",
+        "besedki-johvi-2-03.jpg",
+        "besedki-johvi-2-04.jpg",
+        "besedki-johvi-2-05.jpg",
+        "besedki-johvi-2-06.jpg"
+      ],
+      "price_ru": "по запросу",
+      "price_et": "hind kokkuleppel"
+    },
+    {
+      "id": "obj-besedki-lehtla-1",
+      "category": "besedki",
+      "title_ru": "Беседка Lehtla 1",
+      "title_et": "Lehtla Lehtla 1",
+      "cover": "besedki-lehtla-1-01.jpg",
+      "gallery": [
+        "besedki-lehtla-1-01.jpg",
+        "besedki-lehtla-1-02.jpg",
+        "besedki-lehtla-1-03.jpg",
+        "besedki-lehtla-1-04.jpg",
+        "besedki-lehtla-1-05.jpg",
+        "besedki-lehtla-1-06.jpg"
+      ],
+      "price_ru": "по запросу",
+      "price_et": "hind kokkuleppel"
+    },
+    {
+      "id": "obj-besedki-lehtla-2",
+      "category": "besedki",
+      "title_ru": "Беседка Lehtla 2",
+      "title_et": "Lehtla Lehtla 2",
+      "cover": "besedki-lehtla-2-01.jpg",
+      "gallery": [
+        "besedki-lehtla-2-01.jpg",
+        "besedki-lehtla-2-02.jpg",
+        "besedki-lehtla-2-03.jpg",
+        "besedki-lehtla-2-04.jpg",
+        "besedki-lehtla-2-05.jpg",
+        "besedki-lehtla-2-06.jpg",
+        "besedki-lehtla-2-07.jpg"
+      ],
+      "price_ru": "по запросу",
+      "price_et": "hind kokkuleppel"
+    },
+    {
+      "id": "obj-besedki-mitsurinets",
+      "category": "besedki",
+      "title_ru": "Беседка Mitsurinets",
+      "title_et": "Lehtla Mitsurinets",
+      "cover": "besedki-mitsurinets-01.jpg",
+      "gallery": [
+        "besedki-mitsurinets-01.jpg",
+        "besedki-mitsurinets-02.jpg",
+        "besedki-mitsurinets-03.jpg",
+        "besedki-mitsurinets-04.jpg",
+        "besedki-mitsurinets-05.jpg"
+      ],
+      "price_ru": "по запросу",
+      "price_et": "hind kokkuleppel"
+    },
+    {
+      "id": "obj-besedki-peipsi-jarv",
+      "category": "besedki",
+      "title_ru": "Беседка Peipsi järv",
+      "title_et": "Lehtla Peipsi järv",
+      "cover": "besedki-peipsi-jarv-01.jpg",
+      "gallery": [
+        "besedki-peipsi-jarv-01.jpg",
+        "besedki-peipsi-jarv-02.jpg"
+      ],
+      "price_ru": "по запросу",
+      "price_et": "hind kokkuleppel"
+    },
+    {
+      "id": "obj-vnutrennie-vahastu",
+      "category": "vnutrennie",
+      "title_ru": "Внутренние работы Vahastu",
+      "title_et": "Sisetööd Vahastu",
+      "cover": "vnutrennie-vahastu-01.jpg",
+      "gallery": [
+        "vnutrennie-vahastu-01.jpg",
+        "vnutrennie-vahastu-02.jpg",
+        "vnutrennie-vahastu-03.jpg",
+        "vnutrennie-vahastu-04.jpg",
+        "vnutrennie-vahastu-05.jpg",
+        "vnutrennie-vahastu-06.jpg",
+        "vnutrennie-vahastu-07.jpg",
+        "vnutrennie-vahastu-08.jpg"
+      ],
+      "price_ru": "по запросу",
+      "price_et": "hind kokkuleppel"
+    },
+    {
+      "id": "obj-vnutrennie-лестница-ахтме",
+      "category": "vnutrennie",
+      "title_ru": "Внутренние работы Лестница Ахтме",
+      "title_et": "Sisetööd Лестница Ахтме",
+      "cover": "vnutrennie-lestnica-ahtme-01.jpg",
+      "gallery": [
+        "vnutrennie-lestnica-ahtme-01.jpg",
+        "vnutrennie-lestnica-ahtme-02.jpg",
+        "vnutrennie-lestnica-ahtme-03.jpg",
+        "vnutrennie-lestnica-ahtme-04.jpg",
+        "vnutrennie-lestnica-ahtme-05.jpg",
+        "vnutrennie-lestnica-ahtme-06.jpg"
+      ],
+      "price_ru": "по запросу",
+      "price_et": "hind kokkuleppel"
+    },
+    {
+      "id": "obj-krysha-katus-1",
+      "category": "krysha",
+      "title_ru": "Крыша Katus 1",
+      "title_et": "Katus Katus 1",
+      "cover": "krysha-katus-1-01.jpg",
+      "gallery": [
+        "krysha-katus-1-01.jpg",
+        "krysha-katus-1-02.jpg",
+        "krysha-katus-1-03.jpg",
+        "krysha-katus-1-04.jpg"
+      ],
+      "price_ru": "по запросу",
+      "price_et": "hind kokkuleppel"
+    },
+    {
+      "id": "obj-krysha-katus-3",
+      "category": "krysha",
+      "title_ru": "Крыша Katus 3",
+      "title_et": "Katus Katus 3",
+      "cover": "krysha-katus-3-01.jpg",
+      "gallery": [
+        "krysha-katus-3-01.jpg",
+        "krysha-katus-3-02.jpg",
+        "krysha-katus-3-03.jpg",
+        "krysha-katus-3-04.jpg",
+        "krysha-katus-3-05.jpg"
+      ],
+      "price_ru": "по запросу",
+      "price_et": "hind kokkuleppel"
+    },
+    {
+      "id": "obj-krysha-katus-5",
+      "category": "krysha",
+      "title_ru": "Крыша Katus 5",
+      "title_et": "Katus Katus 5",
+      "cover": "krysha-katus-5-01.jpg",
+      "gallery": [
+        "krysha-katus-5-01.jpg",
+        "krysha-katus-5-02.jpg",
+        "krysha-katus-5-03.jpg",
+        "krysha-katus-5-04.jpg",
+        "krysha-katus-5-05.jpg"
+      ],
+      "price_ru": "по запросу",
+      "price_et": "hind kokkuleppel"
+    },
+    {
+      "id": "obj-krysha-kuru",
+      "category": "krysha",
+      "title_ru": "Крыша Kuru",
+      "title_et": "Katus Kuru",
+      "cover": "krysha-kuru-01.jpg",
+      "gallery": [
+        "krysha-kuru-01.jpg",
+        "krysha-kuru-02.jpg"
+      ],
+      "price_ru": "по запросу",
+      "price_et": "hind kokkuleppel"
+    },
+    {
+      "id": "obj-krysha-sputnik",
+      "category": "krysha",
+      "title_ru": "Крыша Sputnik",
+      "title_et": "Katus Sputnik",
+      "cover": "krysha-sputnik-01.jpg",
+      "gallery": [
+        "krysha-sputnik-01.jpg",
+        "krysha-sputnik-02.jpg",
+        "krysha-sputnik-03.jpg"
+      ],
+      "price_ru": "по запросу",
+      "price_et": "hind kokkuleppel"
+    },
+    {
+      "id": "obj-krysha-vahastu",
+      "category": "krysha",
+      "title_ru": "Крыша Vahastu",
+      "title_et": "Katus Vahastu",
+      "cover": "krysha-vahastu-01.jpg",
+      "gallery": [
+        "krysha-vahastu-01.jpg",
+        "krysha-vahastu-02.jpg",
+        "krysha-vahastu-03.jpg",
+        "krysha-vahastu-04.jpg"
+      ],
+      "price_ru": "по запросу",
+      "price_et": "hind kokkuleppel"
+    },
+    {
+      "id": "obj-naves-дровник-тойла",
+      "category": "naves",
+      "title_ru": "Навес Дровник Тойла",
+      "title_et": "Varikatus Дровник Тойла",
+      "cover": "naves-drovnik-tojla-01.jpg",
+      "gallery": [
+        "naves-drovnik-tojla-01.jpg"
+      ],
+      "price_ru": "по запросу",
+      "price_et": "hind kokkuleppel"
+    },
+    {
+      "id": "obj-naves-навес",
+      "category": "naves",
+      "title_ru": "Навес Навес",
+      "title_et": "Varikatus Навес",
+      "cover": "naves-naves-01.jpg",
+      "gallery": [
+        "naves-naves-01.jpg",
+        "naves-naves-02.jpg",
+        "naves-naves-03.jpg",
+        "naves-naves-04.jpg"
+      ],
+      "price_ru": "по запросу",
+      "price_et": "hind kokkuleppel"
+    },
+    {
+      "id": "obj-naves-тойла",
+      "category": "naves",
+      "title_ru": "Навес Тойла",
+      "title_et": "Varikatus Тойла",
+      "cover": "naves-tojla-01.jpg",
+      "gallery": [
+        "naves-tojla-01.jpg",
+        "naves-tojla-02.jpg"
+      ],
+      "price_ru": "по запросу",
+      "price_et": "hind kokkuleppel"
+    },
+    {
+      "id": "obj-bytovka-aiamaja",
+      "category": "bytovka",
+      "title_ru": "Садовый домик Aiamaja",
+      "title_et": "Aiamaja Aiamaja",
+      "cover": "bytovka-aiamaja-01.jpg",
+      "gallery": [
+        "bytovka-aiamaja-01.jpg",
+        "bytovka-aiamaja-02.jpg",
+        "bytovka-aiamaja-03.jpg",
+        "bytovka-aiamaja-04.jpg",
+        "bytovka-aiamaja-05.jpg"
+      ],
+      "price_ru": "по запросу",
+      "price_et": "hind kokkuleppel"
+    },
+    {
+      "id": "obj-bytovka-raudtee",
+      "category": "bytovka",
+      "title_ru": "Садовый домик Raudtee",
+      "title_et": "Aiamaja Raudtee",
+      "cover": "bytovka-raudtee-01.jpg",
+      "gallery": [
+        "bytovka-raudtee-01.jpg",
+        "bytovka-raudtee-02.jpg",
+        "bytovka-raudtee-03.jpg",
+        "bytovka-raudtee-04.jpg",
+        "bytovka-raudtee-05.jpg"
+      ],
+      "price_ru": "по запросу",
+      "price_et": "hind kokkuleppel"
+    },
+    {
+      "id": "obj-bytovka-курятник",
+      "category": "bytovka",
+      "title_ru": "Садовый домик Курятник",
+      "title_et": "Aiamaja Курятник",
+      "cover": "bytovka-kuryatnik-01.jpg",
+      "gallery": [
+        "bytovka-kuryatnik-01.jpg",
+        "bytovka-kuryatnik-02.jpg",
+        "bytovka-kuryatnik-03.jpg",
+        "bytovka-kuryatnik-04.jpg",
+        "bytovka-kuryatnik-05.jpg",
+        "bytovka-kuryatnik-06.jpg"
+      ],
+      "price_ru": "по запросу",
+      "price_et": "hind kokkuleppel"
+    },
+    {
+      "id": "obj-specproekty-toila-laev",
+      "category": "specproekty",
+      "title_ru": "Спецпроект Toila Laev",
+      "title_et": "Eriprojekt Toila Laev",
+      "cover": "specproekty-toila-laev-01.jpg",
+      "gallery": [
+        "specproekty-toila-laev-01.jpg",
+        "specproekty-toila-laev-02.jpg",
+        "specproekty-toila-laev-03.jpg",
+        "specproekty-toila-laev-04.jpg",
+        "specproekty-toila-laev-05.jpg",
+        "specproekty-toila-laev-06.jpg",
+        "specproekty-toila-laev-07.jpg",
+        "specproekty-toila-laev-08.jpg"
+      ],
+      "price_ru": "по запросу",
+      "price_et": "hind kokkuleppel"
+    },
+    {
+      "id": "obj-specproekty-vahastu-ahi",
+      "category": "specproekty",
+      "title_ru": "Спецпроект Vahastu Ahi",
+      "title_et": "Eriprojekt Vahastu Ahi",
+      "cover": "specproekty-vahastu-ahi-01.jpg",
+      "gallery": [
+        "specproekty-vahastu-ahi-01.jpg",
+        "specproekty-vahastu-ahi-02.jpg",
+        "specproekty-vahastu-ahi-03.jpg",
+        "specproekty-vahastu-ahi-04.jpg",
+        "specproekty-vahastu-ahi-05.jpg"
+      ],
+      "price_ru": "по запросу",
+      "price_et": "hind kokkuleppel"
+    },
+    {
+      "id": "obj-specproekty-vahastu-kaskaad",
+      "category": "specproekty",
+      "title_ru": "Спецпроект Vahastu Kaskaad",
+      "title_et": "Eriprojekt Vahastu Kaskaad",
+      "cover": "specproekty-vahastu-kaskaad-01.jpg",
+      "gallery": [
+        "specproekty-vahastu-kaskaad-01.jpg",
+        "specproekty-vahastu-kaskaad-02.jpg",
+        "specproekty-vahastu-kaskaad-03.jpg",
+        "specproekty-vahastu-kaskaad-04.jpg",
+        "specproekty-vahastu-kaskaad-05.jpg"
+      ],
+      "price_ru": "по запросу",
+      "price_et": "hind kokkuleppel"
+    },
+    {
+      "id": "obj-specproekty-vahastu-maja",
+      "category": "specproekty",
+      "title_ru": "Спецпроект Vahastu maja",
+      "title_et": "Eriprojekt Vahastu maja",
+      "cover": "specproekty-vahastu-maja-01.jpg",
+      "gallery": [
+        "specproekty-vahastu-maja-01.jpg",
+        "specproekty-vahastu-maja-02.jpg",
+        "specproekty-vahastu-maja-03.jpg"
+      ],
+      "price_ru": "по запросу",
+      "price_et": "hind kokkuleppel"
+    },
+    {
+      "id": "obj-terracy-mitsurinets",
+      "category": "terracy",
+      "title_ru": "Терраса Mitsurinets",
+      "title_et": "Terrass Mitsurinets",
+      "cover": "terracy-mitsurinets-01.jpg",
+      "gallery": [
+        "terracy-mitsurinets-01.jpg",
+        "terracy-mitsurinets-02.jpg",
+        "terracy-mitsurinets-03.jpg"
+      ],
+      "price_ru": "по запросу",
+      "price_et": "hind kokkuleppel"
+    },
+    {
+      "id": "obj-terracy-peipsi-jarv",
+      "category": "terracy",
+      "title_ru": "Терраса Peipsi järv",
+      "title_et": "Terrass Peipsi järv",
+      "cover": "terracy-peipsi-jarv-01.jpg",
+      "gallery": [
+        "terracy-peipsi-jarv-01.jpg",
+        "terracy-peipsi-jarv-02.jpg",
+        "terracy-peipsi-jarv-03.jpg",
+        "terracy-peipsi-jarv-04.jpg"
+      ],
+      "price_ru": "по запросу",
+      "price_et": "hind kokkuleppel"
+    },
+    {
+      "id": "obj-terracy-peipsi-jarv-2",
+      "category": "terracy",
+      "title_ru": "Терраса Peipsi järv 2",
+      "title_et": "Terrass Peipsi järv 2",
+      "cover": "terracy-peipsi-jarv-2-01.jpg",
+      "gallery": [
+        "terracy-peipsi-jarv-2-01.jpg",
+        "terracy-peipsi-jarv-2-02.jpg",
+        "terracy-peipsi-jarv-2-03.jpg"
+      ],
+      "price_ru": "по запросу",
+      "price_et": "hind kokkuleppel"
+    },
+    {
+      "id": "obj-terracy-parnu",
+      "category": "terracy",
+      "title_ru": "Терраса Pärnu",
+      "title_et": "Terrass Pärnu",
+      "cover": "terracy-parnu-01.jpg",
+      "gallery": [
+        "terracy-parnu-01.jpg",
+        "terracy-parnu-02.jpg",
+        "terracy-parnu-03.jpg",
+        "terracy-parnu-04.jpg",
+        "terracy-parnu-05.jpg",
+        "terracy-parnu-06.jpg",
+        "terracy-parnu-07.jpg",
+        "terracy-parnu-08.jpg",
+        "terracy-parnu-09.jpg",
+        "terracy-parnu-10.jpg",
+        "terracy-parnu-11.jpg"
+      ],
+      "price_ru": "по запросу",
+      "price_et": "hind kokkuleppel"
+    },
+    {
+      "id": "obj-terracy-sillamae",
+      "category": "terracy",
+      "title_ru": "Терраса Sillamäe",
+      "title_et": "Terrass Sillamäe",
+      "cover": "terracy-sillamae-01.jpg",
+      "gallery": [
+        "terracy-sillamae-01.jpg",
+        "terracy-sillamae-02.jpg",
+        "terracy-sillamae-03.jpg",
+        "terracy-sillamae-04.jpg",
+        "terracy-sillamae-05.jpg"
+      ],
+      "price_ru": "по запросу",
+      "price_et": "hind kokkuleppel"
+    },
+    {
+      "id": "obj-terracy-terass-2",
+      "category": "terracy",
+      "title_ru": "Терраса Terass 2",
+      "title_et": "Terrass Terass 2",
+      "cover": "terracy-terass-2-01.jpg",
+      "gallery": [
+        "terracy-terass-2-01.jpg",
+        "terracy-terass-2-02.jpg",
+        "terracy-terass-2-03.jpg",
+        "terracy-terass-2-04.jpg",
+        "terracy-terass-2-05.jpg",
+        "terracy-terass-2-06.jpg",
+        "terracy-terass-2-07.jpg",
+        "terracy-terass-2-08.jpg",
+        "terracy-terass-2-09.jpg",
+        "terracy-terass-2-10.jpg",
+        "terracy-terass-2-11.jpg",
+        "terracy-terass-2-12.jpg",
+        "terracy-terass-2-13.jpg",
+        "terracy-terass-2-14.jpg",
+        "terracy-terass-2-15.jpg"
+      ],
+      "price_ru": "по запросу",
+      "price_et": "hind kokkuleppel"
+    },
+    {
+      "id": "obj-terracy-terrass",
+      "category": "terracy",
+      "title_ru": "Терраса Terrass",
+      "title_et": "Terrass Terrass",
+      "cover": "terracy-terrass-01.jpg",
+      "gallery": [
+        "terracy-terrass-01.jpg",
+        "terracy-terrass-02.jpg",
+        "terracy-terrass-03.jpg",
+        "terracy-terrass-04.jpg",
+        "terracy-terrass-05.jpg",
+        "terracy-terrass-06.jpg"
+      ],
+      "price_ru": "по запросу",
+      "price_et": "hind kokkuleppel"
+    },
+    {
+      "id": "obj-terracy-toila",
+      "category": "terracy",
+      "title_ru": "Терраса Toila",
+      "title_et": "Terrass Toila",
+      "cover": "terracy-toila-01.jpg",
+      "gallery": [
+        "terracy-toila-01.jpg",
+        "terracy-toila-02.jpg",
+        "terracy-toila-03.jpg",
+        "terracy-toila-04.jpg",
+        "terracy-toila-05.jpg",
+        "terracy-toila-06.jpg"
+      ],
+      "price_ru": "по запросу",
+      "price_et": "hind kokkuleppel"
+    },
+    {
+      "id": "obj-terracy-vahastu",
+      "category": "terracy",
+      "title_ru": "Терраса Vahastu",
+      "title_et": "Terrass Vahastu",
+      "cover": "terracy-vahastu-01.jpg",
+      "gallery": [
+        "terracy-vahastu-01.jpg",
+        "terracy-vahastu-02.jpg",
+        "terracy-vahastu-03.jpg"
+      ],
+      "price_ru": "по запросу",
+      "price_et": "hind kokkuleppel"
+    }
+  ]
+}

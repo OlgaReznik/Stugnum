@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Работы STUGNUM — беседки, террасы, крыши, фасады и другие постройки из дерева по всей Эстонии." />
+  <meta name="theme-color" content="#2D4A2B" />
+  <title>Наши работы — STUGNUM</title>
+
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png" />
+  <link rel="icon" type="image/png" sizes="192x192" href="favicon-192.png" />
+  <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cal+Sans&family=Golos+Text:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+  <link rel="stylesheet" href="assets/css/site.css" />
+  <!-- Plausible Analytics: простая приватная аналитика без cookies -->
+  <script defer data-domain="stugnum.ee" src="https://plausible.io/js/script.js"></script>
+
+</head>
+<body data-page="portfolio">
+
+  <div id="header-slot"></div>
+
+  <section class="page-header">
+    <div class="container">
+      <span class="sub-heading"><span class="dot"></span> <span data-ru="Портфолио" data-et="Portfoolio">Портфолио</span></span>
+      <h1 class="page-title"><span data-ru="Наши работы" data-et="Meie tööd">Наши работы</span></h1>
+      <p class="page-subtitle" data-ru="Реальные объекты, построенные командой STUGNUM по всей Эстонии. Используйте фильтры, чтобы посмотреть нужный тип построек."
+         data-et="Reaalsed objektid, mille on ehitanud STUGNUM meeskond üle Eesti. Kasutage filtreid, et vaadata soovitud tüüpi rajatisi.">
+         Реальные объекты, построенные командой STUGNUM по всей Эстонии. Используйте фильтры, чтобы посмотреть нужный тип построек.
+      </p>
+    </div>
+  </section>
+
+  <section class="page-content">
+    <div class="container">
+
+      <div class="portfolio-filter" id="portfolioFilter">
+        <button class="active" data-filter="all" data-ru="Все" data-et="Kõik">Все</button>
+        <button data-filter="besedki" data-ru="Беседки" data-et="Lehtlad">Беседки</button>
+        <button data-filter="terracy" data-ru="Террасы" data-et="Terrassid">Террасы</button>
+        <button data-filter="bytovka" data-ru="Садовые домики" data-et="Aiamajad">Садовые домики</button>
+        <button data-filter="krysha" data-ru="Крыши" data-et="Katused">Крыши</button>
+        <button data-filter="fasad" data-ru="Фасады" data-et="Fassaadid">Фасады</button>
+        <button data-filter="vnutrennie" data-ru="Внутренние работы" data-et="Sisetööd">Внутренние работы</button>
+        <button data-filter="naves" data-ru="Навесы" data-et="Varikatused">Навесы</button>
+        <button data-filter="specproekty" data-ru="Спецпроекты" data-et="Eriprojektid">Спецпроекты</button>
+      </div>
+
+      <div class="portfolio-grid" id="portfolioGrid">
+
+      </div>
+
+    </div>
+  </section>
+
+  <div id="footer-slot"></div>
+
+
+  <!-- Lightbox markup (до основного скрипта, чтобы DOMContentLoaded мог его найти) -->
+  <div id="lightbox" class="lightbox" aria-hidden="true">
+    <button class="lb-close" aria-label="Закрыть">&times;</button>
+    <button class="lb-prev" aria-label="Предыдущее">&#10094;</button>
+    <button class="lb-next" aria-label="Следующее">&#10095;</button>
+    <div class="lb-stage">
+      <img class="lb-img" alt="" />
+      <div class="lb-meta">
+        <div class="lb-caption"></div>
+        <div class="lb-count"></div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <script src="assets/js/site.js" defer></script>
+  <script src="assets/js/pages/portfolio.js" defer></script>
+</body>
+</html>
